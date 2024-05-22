@@ -10,9 +10,7 @@ Obs.: se for identificada um fraude a transação fraudulenta não será enviada
 
 
 ## Ferramentas que devem ser instaladas
-[Docker]https://www.docker.com/products/docker-desktop/
-[Minikube]https://minikube.sigs.k8s.io/docs/start/
-[kubectl]https://kubernetes.io/pt-br/docs/tasks/tools/
+[Terraform]https://developer.hashicorp.com/terraform/install
 
 ## Execução dos códigos
 
