@@ -16,7 +16,7 @@ Obs.: se for identificada um fraude a transação fraudulenta não será enviada
 
 ```BASH
 
-# 1. Para acessar o código do ambiente de desenvolvimento navegue até a pasta dev. Execute os comandos abaixo de forma sequencial para inicializar o terraform, criar os workspaces, planejar e aplicar o código:
+# 1. Para acessar o código do ambiente de desenvolvimento navegue até a pasta dev. Execute os comandos abaixo de forma sequencial para inicializar o terraform, criar o workspace, planejar e aplicar o código:
 terraform init
 terraform workspace new dev
 terraform plan -var-file="dev.tfvars"
@@ -26,7 +26,7 @@ terraform apply -var-file="dev.tfvars"
 # 2. Para destruir o ambiente execute o comando abixo
 terraform destroy -var-file="dev.tfvars"
 
-# 3. Para acessar o código do ambiente de produção navegue até a pasta prd. Execute os comandos abaixo de forma sequencial para inicializar o terraform, criar os workspaces, planejar e aplicar o código:
+# 3. Para acessar o código do ambiente de produção navegue até a pasta prd. Execute os comandos abaixo de forma sequencial para inicializar o terraform, criar o workspace, planejar e aplicar o código:
 terraform init
 terraform workspace new prd
 terraform plan -var-file="prd.tfvars"
